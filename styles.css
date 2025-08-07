@@ -1,54 +1,35 @@
 body {
-    background-color: #f0f4f8;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 20px;
-    color: #2e3a59;
+  background-image: url('https://c.wallhere.com/photos/80/88/1920x1080_px_nebula_space_stars_TylerCreatesWorlds-741454.jpg!d');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
-
-h1 {
-    font-size: 3rem;
-    color: #6c63ff;
-    text-shadow: 1px 1px 2px #d1d9e6;
-    margin-bottom: 20px;
-}
-
-.image {
-    border: 6px solid #d1d9e6;
+.image{
+    border: 8px solid rgb(6, 8, 6);
     border-radius: 20px;
-    max-width: 90%;
-    height: auto;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    height: 400px;
 }
 
 .link-button {
-    display: inline-block;
     text-decoration: none;
-    color: white;
-    background-color: #6c63ff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    box-shadow: 2px 3px #bbb;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-top: 15px;
+    color: black;
+    border: 1px solid gray;
+    background-color: #940000;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
 }
 
-.link-button:hover {
-    background-color: #574b90;
-    transform: translateY(-2px);
+h1 {
+    text-align: center;
+    font-size: 3rem ;
+    color: red;
 }
 
+body 
+{
+    text-align: center;
+}
 p {
     font-weight: bold;
-    font-size: 1.1rem;
-    color: #2e3a59;
-    margin-top: 20px;
 }
