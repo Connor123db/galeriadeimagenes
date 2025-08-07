@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(255, 255, 165);
+  background-image: url('https://c.wallhere.com/photos/80/88/1920x1080_px_nebula_space_stars_TylerCreatesWorlds-741454.jpg!d');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
 
 .image{
