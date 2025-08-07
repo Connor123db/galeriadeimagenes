@@ -11,13 +11,19 @@ body {
 }
 
 .link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #940000;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(145deg, #b30000, #800000);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 h1 {
@@ -33,4 +39,3 @@ body
 p {
     font-weight: bold;
 }
-
